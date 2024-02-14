@@ -33,13 +33,13 @@ namespace Biglietteria
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Controllo TextBox1.
+        /// Controllo lblNome.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox lblNome;
 
         /// <summary>
         /// Controllo Label2.
@@ -51,13 +51,13 @@ namespace Biglietteria
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Controllo TextBox2.
+        /// Controllo lblCognome.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox lblCognome;
 
         /// <summary>
         /// Controllo Label3.
@@ -96,21 +96,21 @@ namespace Biglietteria
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
 
         /// <summary>
-        /// Controllo Label5.
+        /// Controllo lblPosti.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblPosti;
 
         /// <summary>
-        /// Controllo btnPrenotazione.
+        /// Controllo Button1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPrenotazione;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

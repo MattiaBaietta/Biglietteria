@@ -11,10 +11,10 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Nome"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="lblNome" runat="server" OnTextChanged="lblNome_TextChanged"></asp:TextBox>
             <br />
             <asp:Label ID="Label2" runat="server" Text="Cognome"></asp:Label>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="lblCognome" runat="server"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" Text="Nome Sala"></asp:Label>
@@ -29,12 +29,12 @@
                 <asp:ListItem>Intero</asp:ListItem>
                 <asp:ListItem>Ridotto</asp:ListItem>
             </asp:RadioButtonList>
+            <asp:Label ID="lblPosti" runat="server" Text="Posti Disponibili:"></asp:Label>
             <br />
             <br />
-            <asp:Label ID="Label5" runat="server" Text="Posti Disponibili:"></asp:Label>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1" Text="Button" />
             <br />
         </div>
-        <asp:Button ID="btnPrenotazione" runat="server" Text="Prenota" />
     </form>
 </body>
 </html>
